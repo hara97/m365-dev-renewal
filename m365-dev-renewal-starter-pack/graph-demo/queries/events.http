@@ -1,0 +1,4 @@
+### Get my events
+GET https://graph.microsoft.com/v1.0/me/events
+Authorization: Bearer {{access_token}}
+Accept: application/json

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.16/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.16",
+  "version": "1.0.0",
+  "id": "m365-renewal-demo",
+  "packageName": "com.example.m365renewaldemo",
+  "developer": {
+    "name": "Your Name",
+    "websiteUrl": "https://github.com/YOUR_USERNAME/m365-dev-renewal",
+    "privacyUrl": "https://privacy.microsoft.com/",
+    "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/"
+  },
+  "name": { "short": "Renewal Demo", "full": "Microsoft 365 Renewal Demo" },
+  "description": {
+    "short": "A demo Teams app for developer subscription activity.",
+    "full": "Simple Teams personal app to demonstrate developer subscription activity."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#6264A7",
+  "staticTabs": [
+    {
+      "entityId": "bingTab",
+      "name": "Demo Tab",
+      "contentUrl": "https://www.bing.com",
+      "scopes": ["personal"]
+    }
+  ],
+  "permissions": ["identity", "messageTeamMembers"],
+  "validDomains": ["www.bing.com"]
+}

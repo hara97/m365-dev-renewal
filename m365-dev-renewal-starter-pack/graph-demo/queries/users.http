@@ -1,0 +1,4 @@
+### Get all users
+GET https://graph.microsoft.com/v1.0/users
+Authorization: Bearer {{access_token}}
+Accept: application/json

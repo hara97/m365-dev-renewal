@@ -1,0 +1,13 @@
+{
+  "name": "NotifyTeamsOnNewFile",
+  "definition": {
+    "trigger": "When a file is created (OneDrive)",
+    "actions": [
+      {
+        "SendTeamsMessage": {
+          "message": "A new file was added to OneDrive!"
+        }
+      }
+    ]
+  }
+}

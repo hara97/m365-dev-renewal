@@ -1,0 +1,4 @@
+SPFx version: 1.18.x
+Framework: React (or None)
+Web part name: hello-spfx
+Purpose: Demo component for developer subscription activity
